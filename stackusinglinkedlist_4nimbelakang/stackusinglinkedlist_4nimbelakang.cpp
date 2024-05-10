@@ -18,4 +18,8 @@ public:
 	Stack() {
 		top = NULL;
 	}
+
+	int push(int value) {
+
+	}
 };
