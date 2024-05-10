@@ -24,7 +24,11 @@ public:
 		newNode->data = value;
 		newNode->next = top;
 		top = newNode;
+	}
 
-
+	void pop() {
+		if (isEmpty()) {
+			cout << "Stack is empty." << endl;
+		}
 	}
 };
