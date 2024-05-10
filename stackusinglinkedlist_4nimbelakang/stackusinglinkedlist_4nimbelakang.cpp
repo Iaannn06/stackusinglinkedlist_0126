@@ -47,5 +47,8 @@ public:
 			cout << endl;
 		}
 	}
-	
 };
+
+int main() {
+	Stack stack;
+}
