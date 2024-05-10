@@ -6,4 +6,5 @@ public:
 	int data;
 	Node* next;
 
+
 };
